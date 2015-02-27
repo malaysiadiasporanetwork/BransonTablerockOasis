@@ -19,7 +19,7 @@
         useArrows             : false,    // Bool (default false): Navigation type previous and next arrows
         thumbMargin           : 3,        // Int (default 3): Percentage width of thumb margin
         autoPlay              : false,    // Int (default false): Auto-cycle slider
-        delay                 : 5000,     // Int (default 5000) Time between slides in ms
+        delay                 : 3000,     // Int (default 5000) Time between slides in ms
         transitionDuration    : 800,      // Int (default 800): Transition length in ms
         startSlide            : 0,        // Int (default 0): First slide
         keyNav                : true,     // Bool (default true): Use left/right arrow keys to switch slide
