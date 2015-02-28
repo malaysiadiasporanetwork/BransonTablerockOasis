@@ -29,7 +29,7 @@ Deploying to the Live Site
 
 Follow the standard workflow.  Make changes, `python build.py` and preview locally from `build/`.  
 When ready, `ghp -np build/` & `git commit -am '<comment>'`.
-Preview on GitHub (http://nathanrsmith.github.io/FCCWebsite/).
+Preview on GitHub (http://drrandal.github.io/BransonTablerockOasis/).
 If everything looks ok, deploy to the server `fab remote deploy` and enter the hosting username/password when prompted.
 
 
