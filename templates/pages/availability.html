@@ -1,13 +1,24 @@
 {% extends "base/subpage.html" %}
 
-{% block subheading %}Calendar{% endblock %}
+{% block subheading %}Availability{% endblock %}
 
 {% block breadcrumb %}
-    <li><a href="{{ root }}index.html">Home</a></li>
-    <li><a href="{{ root }}about/index.html">About Us</a></li>
-    <li class="active">Calendar</li>
+    <li><a href="{{ root }}availability.html">Availability</a></li>
+
 {% endblock %}
 
 {% block content %}
-    <iframe src="http://www.google.com/calendar/embed?src=faithcommunitychurchonline%40gmail.com&ctz=America/New_York" style="border: 0; width: 100%; height: 600px;" frameborder="0" scrolling="no"></iframe> 
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="our-team">
+                <div class="our-team-image">
+                    <a href="http://www.vrbo.com/686045/" class="zoom popup-link">
+                     <img src="{{ media }}img/bookNowOnVRBO.jpg" alt="#">
+                    </a>
+                </div>
+            <div class="our-team-text">
+        </div>
+    </div>
+
 {% endblock %}
