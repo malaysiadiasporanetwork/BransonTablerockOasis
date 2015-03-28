@@ -9,118 +9,134 @@
 
 {% block content %}
 
-    <div class="row">
-      <div class="col-md-12">
-        <ul id="portfolio-filter">
-          <li class="act"><a href="#" class="filter" data-filter="*">All</a></li>
-        	<li><a href="#" class="filter" data-filter=".photography">Main Level</a></li>
-          <li><a href="#" class="filter" data-filter=".architecture">Second Level</a></li>
-        	<li><a href="#" class="filter" data-filter=".webdesign">Exterior</a></li>
-          <li><a href="#" class="filter" data-filter=".technology">Attractions</a></li>
-          <li><a href="#" class="filter" data-filter=".identity">Vacations</a></li>
-        </ul>
-        		
-        <section id="portfolio-items">
-          <ul class="portfolio">
-            <li>
-              <!-- Portfolio Item -->
-              <article class="col-md-3 project" data-tags="photography,technology">
-                <div class="project-item-isotope">
-                  <div class="project-image">
-                    <img src="{{ media }}img/portfolio/balconymorning.jpg" alt="sdf">
-                    <span class="divider"></span>
-                    <a href="{{ media }}img/portfolio/balconymorning.jpg" class="media-link-1 popup-link" title="some text">SHOW</a>
-                    <a class="media-link-2" href="portfolio-detail.html">DETAIL</a>                            
-                  </div>
-                  <div class="project-text">
-                    <h5><a href="#">Project name</a></h5>
-                      gfd
-                  </div>              
-                </div>
-              </article>
-              <!-- Portfolio Item End -->
-            </li> 
-                
-            <li>
-              <!-- Portfolio Item -->
-              <article class="col-md-3 project" data-tags="webdesign,identity">
-                <div class="project-item-isotope">
-                  <div class="project-image">
-                    <img src="img/portfolio/2.jpg" alt="sdf">
-                    <span class="divider"></span>
-                    <a href="img/portfolio/2.jpg" class="media-link-1 popup-link" title="some text">SHOW</a>
-                    <a class="media-link-2" href="portfolio-detail.html">DETAIL</a>                            
-                  </div>
-                  <div class="project-text">
-                    <h5><a href="#">Project name</a></h5>
-                      fgd
-                  </div>              
-                </div>
-              </article>
-              <!-- Portfolio Item End -->
-            </li>  
+ <!-- Page Content -->
+    <div class="container">
 
-            <li>
-              <!-- Portfolio Item -->
-              <article class="col-md-3 project" data-tags="webdesign,identity">
-                <div class="project-item-isotope">
-                  <div class="project-image">
-                    <img src="img/portfolio/2.jpg" alt="sdf">
-                    <span class="divider"></span>
-                    <a href="img/portfolio/2.jpg" class="media-link-1 popup-link" title="some text">SHOW</a>
-                    <a class="media-link-2" href="portfolio-detail.html">DETAIL</a>                            
-                  </div>
-                  <div class="project-text">
-                    <h5><a href="#">Project name</a></h5>
-                      fgd
-                  </div>              
-                </div>
-              </article>
-              <!-- Portfolio Item End -->
-            </li> 
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h4 class="page-header">Thumbnail Gallery</h4>
+            </div>
+
             
-            <li>
-              <!-- Portfolio Item -->
-              <article class="col-md-3 project" data-tags="webdesign,identity">
-                <div class="project-item-isotope">
-                  <div class="project-image">
-                    <img src="img/portfolio/2.jpg" alt="sdf">
-                    <span class="divider"></span>
-                    <a href="img/portfolio/2.jpg" class="media-link-1 popup-link" title="some text">SHOW</a>
-                    <a class="media-link-2" href="portfolio-detail.html">DETAIL</a>                            
-                  </div>
-                  <div class="project-text">
-                    <h5><a href="#">Project name</a></h5>
-                      fgd
-                  </div>              
-                </div>
-              </article>
-              <!-- Portfolio Item End -->
-            </li> 
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <a href="{{ media }}img/gallery/balconymorning.jpg" class="zoom popup-link">
+                    <img class="img-responsive" src="{{ media }}img/gallery/balconymorning.jpg" alt="">
+                        <div class="our-team-text">
+                            <p>Morning sunriste off of our balcony</p>
+                        </div> 
+                </a>
+            </div>
             
-            <li>
-              <!-- Portfolio Item -->
-              <article class="col-md-3 project" data-tags="webdesign,identity">
-                <div class="project-item-isotope">
-                  <div class="project-image">
-                    <img src="img/portfolio/2.jpg" alt="sdf">
-                    <span class="divider"></span>
-                    <a href="img/portfolio/2.jpg" class="media-link-1 popup-link" title="some text">SHOW</a>
-                    <a class="media-link-2" href="portfolio-detail.html">DETAIL</a>                            
-                  </div>
-                  <div class="project-text">
-                    <h5><a href="#">Project name</a></h5>
-                      fgd
-                  </div>              
-                </div>
-              </article>
-              <!-- Portfolio Item End -->
-            </li> 
-          
-          </ul> 
-        </section> <!-- isotope section end -->
-      </div> <!-- col-md-12 end -->
-    </div> <!-- row end -->
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <a href="{{ media }}img/gallery/outdoorpoolsm.jpg" class="zoom popup-link">
+                    <img class="img-responsive" src="{{ media }}img/gallery/outdoorpoolsm.jpg" alt="">
+                        <div class="our-team-text">
+                            <p>Outdoor seasonal pool</p>
+                        </div> 
+                </a>
+            </div>
+            
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <a href="{{ media }}img/gallery/boathouse.jpg" class="zoom popup-link">
+                    <img class="img-responsive" src="{{ media }}img/gallery/boathouse.jpg" alt="">
+                        <div class="our-team-text">
+                            <p>Boathouse where our slip is</p>
+                        </div> 
+                </a>
+            </div>
+            
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <a href="{{ media }}img/gallery/treehouseentrance.jpg" class="zoom popup-link">
+                    <img class="img-responsive" src="{{ media }}img/gallery/treehouseentrance.jpg" alt="">
+                        <div class="our-team-text">
+                            <p>Look for this sign on your left</p>
+                        </div> 
+                </a>
+            </div>
+            
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <a href="{{ media }}img/gallery/treehousefromlake.jpg" class="zoom popup-link">
+                    <img class="img-responsive" src="{{ media }}img/gallery/treehousefromlake.jpg" alt="">
+                        <div class="our-team-text">
+                            <p>View from Table Rock Lake</p>
+                        </div> 
+                </a>
+            </div>
+            
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <a href="{{ media }}img/gallery/fitnessroom.jpg" class="zoom popup-link">
+                    <img class="img-responsive" src="{{ media }}img/gallery/fitnessroom.jpg" alt="">
+                        <div class="our-team-text">
+                            <p>Fitness room</p>
+                        </div> 
+                </a>
+            </div>
+            
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <a href="{{ media }}img/gallery/balconynear.jpg" class="zoom popup-link">
+                    <img class="img-responsive" src="{{ media }}img/gallery/balconynear.jpg" alt="">
+                        <div class="our-team-text">
+                            <p>Looking off the balcony</p>
+                        </div> 
+                </a>
+            </div>
+            
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <a href="{{ media }}img/gallery/treeofheaven.jpg" class="zoom popup-link">
+                    <img class="img-responsive" src="{{ media }}img/gallery/treeofheaven.jpg" alt="">
+                        <div class="our-team-text">
+                            <p>The name of our particular building</p>
+                        </div> 
+                </a>
+            </div>
+            
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <a href="{{ media }}img/gallery/indoorhottubs.jpg" class="zoom popup-link">
+                    <img class="img-responsive" src="{{ media }}img/gallery/indoorhottubs.jpg" alt="">
+                        <div class="our-team-text">
+                            <p>Indoor hot tubs</p>
+                        </div> 
+                </a>
+            </div>
+            
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <a href="{{ media }}img/gallery/indoorexercisetub.jpg" class="zoom popup-link">
+                    <img class="img-responsive" src="{{ media }}img/gallery/indoorexercisetub.jpg" alt="">
+                        <div class="our-team-text">
+                            <p>This is an exercise pool</p>
+                        </div> 
+                </a>
+            </div>
+            
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <a href="{{ media }}img/gallery/boatslip.jpg" class="zoom popup-link">
+                    <img class="img-responsive" src="{{ media }}img/gallery/boatslip.jpg" alt="">
+                        <div class="our-team-text">
+                            <p>Our boat slip in the boat house</p>
+                        </div> 
+                </a>
+            </div>
+            
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+        </div>
+
+    </div>
 
 
 
@@ -129,9 +145,6 @@
         <img src="{{ media }}img/bookNowOnVRBO.jpg" alt="#">
     </a>
 </div>
-
-
-
 
 
 {% endblock %}
