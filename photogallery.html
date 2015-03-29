@@ -68,6 +68,8 @@
     <![endif]-->
 
     
+<link href="css/thumbnail-gallery.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -121,163 +123,305 @@
         <div class="container">
             
 
-<!-- I don't know if this header is needed -->
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Photogallery</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/thumbnail-gallery.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
 
 
+<div class="container photo-gallery">
 
- <!-- Page Content -->
-    <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <ul id="portfolio-filter">
+        <li class="act"><a href="#" class="filter" data-filter="*">All</a></li>
+        <li><a href="#" class="filter" data-filter=".interior">Interior</a></li>
+        <li><a href="#" class="filter" data-filter=".mainlevel">Main Level</a></li>
+        <li><a href="#" class="filter" data-filter=".secondlevel">Second Level</a></li>
+        <li><a href="#" class="filter" data-filter=".exterior">Exterior</a></li>
+        <li><a href="#" class="filter" data-filter=".balconyview">Balcony View</a></li>
+      </ul>
 
-        <div class="row">
-
-            <div class="col-lg-12">
-                <h4 class="page-header">Thumbnail Gallery</h4>
-            </div>
-
+      <section id="portfolio-items">
+        <ul class="portfolio">
             
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <a href="media/img/gallery/balconymorning.jpg" class="zoom popup-link">
-                    <img class="img-responsive" src="media/img/gallery/balconymorning.jpg" alt="">
-                        <div class="our-team-text">
-                            <p>Morning sunriste off of our balcony</p>
-                        </div> 
-                </a>
-            </div>
-            
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <a href="media/img/gallery/outdoorpoolsm.jpg" class="zoom popup-link">
-                    <img class="img-responsive" src="media/img/gallery/outdoorpoolsm.jpg" alt="">
-                        <div class="our-team-text">
-                            <p>Outdoor seasonal pool</p>
-                        </div> 
-                </a>
-            </div>
-            
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <a href="media/img/gallery/boathouse.jpg" class="zoom popup-link">
-                    <img class="img-responsive" src="media/img/gallery/boathouse.jpg" alt="">
-                        <div class="our-team-text">
-                            <p>Boathouse where our slip is</p>
-                        </div> 
-                </a>
-            </div>
-            
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <a href="media/img/gallery/treehouseentrance.jpg" class="zoom popup-link">
-                    <img class="img-responsive" src="media/img/gallery/treehouseentrance.jpg" alt="">
-                        <div class="our-team-text">
-                            <p>Look for this sign on your left</p>
-                        </div> 
-                </a>
-            </div>
-            
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <a href="media/img/gallery/treehousefromlake.jpg" class="zoom popup-link">
-                    <img class="img-responsive" src="media/img/gallery/treehousefromlake.jpg" alt="">
-                        <div class="our-team-text">
-                            <p>View from Table Rock Lake</p>
-                        </div> 
-                </a>
-            </div>
-            
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <a href="media/img/gallery/fitnessroom.jpg" class="zoom popup-link">
-                    <img class="img-responsive" src="media/img/gallery/fitnessroom.jpg" alt="">
-                        <div class="our-team-text">
-                            <p>Fitness room</p>
-                        </div> 
-                </a>
-            </div>
-            
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <a href="media/img/gallery/balconynear.jpg" class="zoom popup-link">
-                    <img class="img-responsive" src="media/img/gallery/balconynear.jpg" alt="">
-                        <div class="our-team-text">
-                            <p>Looking off the balcony</p>
-                        </div> 
-                </a>
-            </div>
-            
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <a href="media/img/gallery/treeofheaven.jpg" class="zoom popup-link">
-                    <img class="img-responsive" src="media/img/gallery/treeofheaven.jpg" alt="">
-                        <div class="our-team-text">
-                            <p>The name of our particular building</p>
-                        </div> 
-                </a>
-            </div>
-            
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <a href="media/img/gallery/indoorhottubs.jpg" class="zoom popup-link">
-                    <img class="img-responsive" src="media/img/gallery/indoorhottubs.jpg" alt="">
-                        <div class="our-team-text">
-                            <p>Indoor hot tubs</p>
-                        </div> 
-                </a>
-            </div>
-            
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <a href="media/img/gallery/indoorexercisetub.jpg" class="zoom popup-link">
-                    <img class="img-responsive" src="media/img/gallery/indoorexercisetub.jpg" alt="">
-                        <div class="our-team-text">
-                            <p>This is an exercise pool</p>
-                        </div> 
-                </a>
-            </div>
-            
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <a href="media/img/gallery/boatslip.jpg" class="zoom popup-link">
-                    <img class="img-responsive" src="media/img/gallery/boatslip.jpg" alt="">
-                        <div class="our-team-text">
-                            <p>Our boat slip in the boat house</p>
-                        </div> 
-                </a>
-            </div>
-            
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
-            </div>
-        </div>
-
+        <!-- Portfolio Item -->
+          <li>
+            <article class="col-md-3 project" data-tags="exterior,balconyview">
+              <div class="project-item-isotope">
+                <div class="project-image">
+                  <a href="media/img/gallery/balconymorning.jpg" class="popup-link" title="Morning sunrise off of our balcony">
+                    <img src="media/img/gallery/balconymorning.jpg" alt="sdf">
+                  </a>
+                </div>
+                <div class="project-text">
+                  Morning sunrise off of our balcony
+                </div>
+              </div>
+            </article>
+          </li>
+        <!-- Portfolio Item End -->
+        
+        <!-- Portfolio Item -->        
+          <li>
+            <article class="col-md-3 project" data-tags="exterior">
+              <div class="project-item-isotope">
+                <div class="project-image">
+                  <a href="media/img/gallery/outdoorpoolsm.jpg" class="popup-link" title="Outdoor seasonal pool">
+                    <img src="media/img/gallery/outdoorpoolsm.jpg" alt="sdf">
+                  </a>
+                </div>
+                <div class="project-text">
+                  Outdoor seasonal pool
+                </div>
+              </div>
+            </article>
+          </li>
+        <!-- Portfolio Item End -->
+        
+        
+        <!-- Portfolio Item -->        
+          <li>
+            <article class="col-md-3 project" data-tags="exterior,balconyview">
+              <div class="project-item-isotope">
+                <div class="project-image">
+                  <a href="media/img/gallery/balconynear.jpg" class="popup-link" title="View over the balcony">
+                    <img src="media/img/gallery/balconynearsmall.jpg" alt="sdf">
+                  </a>
+                </div>
+                <div class="project-text">
+                  View over the balcony
+                </div>
+              </div>
+            </article>
+          </li>
+        <!-- Portfolio Item End -->
+                
+        <!-- Portfolio Item -->        
+          <li>
+            <article class="col-md-3 project" data-tags="exterior">
+              <div class="project-item-isotope">
+                <div class="project-image">
+                  <a href="media/img/gallery/boathouse.jpg" class="popup-link" title="Covered boathouse on the property">
+                    <img src="media/img/gallery/boathousesmall.jpg" alt="sdf">
+                  </a>
+                </div>
+                <div class="project-text">
+                  Covered boathouse on the property
+                </div>
+              </div>
+            </article>
+          </li>
+        <!-- Portfolio Item End -->
+                
+        <!-- Portfolio Item -->        
+          <li>
+            <article class="col-md-3 project" data-tags="exterior">
+              <div class="project-item-isotope">
+                <div class="project-image">
+                  <a href="media/img/gallery/boatslip.jpg" class="popup-link" title="Our boat slip in the boathouse">
+                    <img src="media/img/gallery/boatslipsmall.jpg" alt="sdf">
+                  </a>
+                </div>
+                <div class="project-text">
+                  Our boat slip in the boathouse
+                </div>
+              </div>
+            </article>
+          </li>
+        <!-- Portfolio Item End -->
+        
+                
+        <!-- Portfolio Item -->        
+          <li>
+            <article class="col-md-3 project" data-tags="exterior">
+              <div class="project-item-isotope">
+                <div class="project-image">
+                  <a href="media/img/gallery/fitnessroom.jpg" class="popup-link" title="Fitness room">
+                    <img src="media/img/gallery/fitnessroomsmall.jpg" alt="sdf">
+                  </a>
+                </div>
+                <div class="project-text">
+                  Fitness room
+                </div>
+              </div>
+            </article>
+          </li>
+        <!-- Portfolio Item End -->
+                   
+        <!-- Portfolio Item -->        
+          <li>
+            <article class="col-md-3 project" data-tags="exterior">
+              <div class="project-item-isotope">
+                <div class="project-image">
+                  <a href="media/img/gallery/indoorexercisetub.jpg" class="popup-link" title="Indoor exercise pool">
+                    <img src="media/img/gallery/indoorexercisetubsmall.jpg" alt="sdf">
+                  </a>
+                </div>
+                <div class="project-text">
+                  Indoor exercise pool
+                </div>
+              </div>
+            </article>
+          </li>
+        <!-- Portfolio Item End -->
+                   
+        <!-- Portfolio Item -->        
+          <li>
+            <article class="col-md-3 project" data-tags="exterior">
+              <div class="project-item-isotope">
+                <div class="project-image">
+                  <a href="media/img/gallery/indoorhottubs.jpg" class="popup-link" title="Indoor hot tubs">
+                    <img src="media/img/gallery/indoorhottubssmall.jpg" alt="sdf">
+                  </a>
+                </div>
+                <div class="project-text">
+                  Indoor hot tubs
+                </div>
+              </div>
+            </article>
+          </li>
+        <!-- Portfolio Item End -->
+                   
+        <!-- Portfolio Item -->        
+          <li>
+            <article class="col-md-3 project" data-tags="exterior">
+              <div class="project-item-isotope">
+                <div class="project-image">
+                  <a href="media/img/gallery/treehouseentrance.jpg" class="popup-link" title="Entrance to Treehouse Condos">
+                    <img src="media/img/gallery/treehouseentrancesmall.jpg" alt="sdf">
+                  </a>
+                </div>
+                <div class="project-text">
+                  Entrance to Treehouse Condos
+                </div>
+              </div>
+            </article>
+          </li>
+        <!-- Portfolio Item End -->
+          
+                   
+        <!-- Portfolio Item -->        
+          <li>
+            <article class="col-md-3 project" data-tags="exterior">
+              <div class="project-item-isotope">
+                <div class="project-image">
+                  <a href="media/img/gallery/treehousefromlake.jpg" class="popup-link" title="View of Treehouse Condos from Table Rock Lake">
+                    <img src="media/img/gallery/treehousefromlakesmall.jpg" alt="sdf">
+                  </a>
+                </div>
+                <div class="project-text">
+                  View of Treehouse Condos from Table Rock Lake
+                </div>
+              </div>
+            </article>
+          </li>
+        <!-- Portfolio Item End -->
+                             
+        <!-- Portfolio Item -->        
+          <li>
+            <article class="col-md-3 project" data-tags="exterior">
+              <div class="project-item-isotope">
+                <div class="project-image">
+                  <a href="media/img/gallery/treeofheaven.jpg" class="popup-link" title="The name of our building">
+                    <img src="media/img/gallery/treeofheavensmall.jpg" alt="sdf">
+                  </a>
+                </div>
+                <div class="project-text">
+                  The name of our building
+                </div>
+              </div>
+            </article>
+          </li>
+        <!-- Portfolio Item End -->
+                            
+        <!-- Portfolio Item -->        
+          <li>
+            <article class="col-md-3 project" data-tags="exterior,balconyview">
+              <div class="project-item-isotope">
+                <div class="project-image">
+                  <a href="media/img/gallery/balconysnowscape.jpg" class="popup-link" title="Snowy view from the balcony">
+                    <img src="media/img/gallery/balconysnowscapesmall.jpg" alt="sdf">
+                  </a>
+                </div>
+                <div class="project-text">
+                  Snowy view from the balcony
+                </div>
+              </div>
+            </article>
+          </li>
+        <!-- Portfolio Item End -->
+ 
+                             
+        <!-- Portfolio Item -->        
+          <li>
+            <article class="col-md-3 project" data-tags="exterior,balconyview">
+              <div class="project-item-isotope">
+                <div class="project-image">
+                  <a href="media/img/gallery/beautifulbalconyview.jpg" class="popup-link" title="Another beautiful day">
+                    <img src="media/img/gallery/beautifulbalconyviewsmall.jpg" alt="sdf">
+                  </a>
+                </div>
+                <div class="project-text">
+                  Another beautiful day
+                </div>
+              </div>
+            </article>
+          </li>
+        <!-- Portfolio Item End -->
+                                   
+        <!-- Portfolio Item -->        
+          <li>
+            <article class="col-md-3 project" data-tags="exterior">
+              <div class="project-item-isotope">
+                <div class="project-image">
+                  <a href="media/img/gallery/buildingentrance.jpg" class="popup-link" title="Our building from the rear">
+                    <img src="media/img/gallery/buildingentrancesmall.jpg" alt="sdf">
+                  </a>
+                </div>
+                <div class="project-text">
+                  Our building from the rear
+                </div>
+              </div>
+            </article>
+          </li>
+        <!-- Portfolio Item End -->
+                                   
+        <!-- Portfolio Item -->        
+          <li>
+            <article class="col-md-3 project" data-tags="exterior">
+              <div class="project-item-isotope">
+                <div class="project-image">
+                  <a href="media/img/gallery/indianpointmarina.jpg" class="popup-link" title="Indian Point Marina">
+                    <img src="media/img/gallery/indianpointmarinasmall.jpg" alt="sdf">
+                  </a>
+                </div>
+                <div class="project-text">
+                  Indian Point Marina
+                </div>
+              </div>
+            </article>
+          </li>
+        <!-- Portfolio Item End -->
+                                              
+        <!-- Portfolio Item -->        
+          <li>
+            <article class="col-md-3 project" data-tags="exterior">
+              <div class="project-item-isotope">
+                <div class="project-image">
+                  <a href="media/img/gallery/indianpointboatrental.jpg" class="popup-link" title="Indian Point Marina boat rental">
+                    <img src="media/img/gallery/indianpointboatrentalsmall.jpg" alt="sdf">
+                  </a>
+                </div>
+                <div class="project-text">
+                  Indian Point Marina boat rental
+                </div>
+              </div>
+            </article>
+          </li>
+        <!-- Portfolio Item End -->
+                         
+        </ul>
+      </section>
     </div>
+  </div>
+</div>
 
 
 
