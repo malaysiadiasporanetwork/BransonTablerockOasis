@@ -8,3 +8,7 @@
 .our-team-social i {
     margin-bottom: 0px;
 }
+
+.photo-gallery .project-item-isotope .project-text {
+  padding: 5px 10px 0px 10px;
+}
