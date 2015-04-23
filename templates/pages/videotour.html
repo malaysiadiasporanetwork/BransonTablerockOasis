@@ -1,0 +1,35 @@
+{% extends "base/subpage.html" %}
+
+{% block subheading %}Video Tour{% endblock %}
+
+{% block breadcrumb %}
+    <li><a href="{{ root }}videotour.html">Video Tour</a></li>
+
+{% endblock %}
+
+{% block content %}
+<p>Take a quick video tour of our condo to see what awaits your family</p>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="our-team">
+            <div class="our-team-text">
+                <h4>Branson Tablerock Oasis Video Tour</h4>
+            </div>
+
+            <div class="our-team-image">
+                <iframe width="560" height="315" src="https://youtu.be/gGJbP7DkuhU" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="text-center">
+    <a href="http://www.vrbo.com/686045/">
+        <img src="{{ media }}img/bookNowOnVRBO.jpg" alt="#">
+    </a>
+</div>
+
+{% endblock %}
